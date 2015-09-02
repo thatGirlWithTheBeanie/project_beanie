@@ -66,11 +66,13 @@ affirm = ['yes', 'yea', 'yup', 'hella yeah', 'sure', 'y', 'affirmative', 'of cou
 disregard = ['no', 'nah', 'never', 'absolutely not', 'naaa', 'not really', 'never in my life', 'nope']
 artists = ["imagine dragons", 'take that', 'owl city', 'pink', 'p!nk', 'keiser chiefs', 'beethoven', 'bloc party', 'maximo park', 'editors', 'tegan and sara', 'demi lovato', 'fall out boy', 'sam smith', 'meghan trainor']
 mymusicreasons = ['sounds so good', 'makes you feel the lyrics', 'expresses an inner feeling', 'mixes with my emotions']
-weathersun = ['sunny', 'hot', 'boiling', 'baking', 'roasting', 'sun']
-weatherrain = ['shitting it down', 'raining', 'spitting', 'drizzleing', 'drizling', 'drizzling', 'wet', 'soaking', 'thunder', 'thunder and lightning', 'storm', 'stormy', 'wet and stormy']
+weathersun = ['sunny', 'hot', 'boiling', 'baking', 'roasting', 'sun', 'good', 'great', 'perfect', 'lovely']
+weatherrain = ['shitting it down', 'raining', 'spitting', 'drizzleing', 'drizling', 'drizzling', 'wet', 'soaking', 'thunder', 'thunder and lightning', 'storm', 'stormy', 'wet and stormy', 'hail', 'hailing']
+weatherwind = ['windy', 'breezy', 'blowing', 'gusty']
+weathersnow = ['snowy', 'snowing', 'raining ice', 'snow']
+weatherclear = ['clear', 'not a cloud in the sky', 'blue skies', 'blue sky', 'perfect', 'good', 'lovely', 'great']
 emojigood = [":)", "XD", "^_^", ";)", ";D", ":D", ";D"]
 emojibad = [":(", ":(", "D:"]
-
 
 
 while True:	
