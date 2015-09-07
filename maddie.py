@@ -243,12 +243,66 @@ while True:
 		print ("MADDIE:    oh how nice its " + userInput)
 		time.sleep(2)
 		print ("MADDIE:    you didn't get to hot did you?")
-		weatheranswerrain = input ("ME:    ")
-		if weatheranswerrain in affirm:
+		weatheranswersun = input ("ME:    ")
+		if weatheranswersun in affirm:
 			time.sleep(2)
 			print ("MADDIE:    sorry :(")
 			time.sleep(3)
 			print ("MADDIE:    " + random.choice(questions))
+		else:
+			time.sleep(2)
+			print ("MADDIE:    " + random.choice(good))
+			time.sleep(2)
+			print ("MADDIE:    " + random.choice(questions))
+			
+		elif userInput in weatherclear:
+			time.sleep(2)
+			print ("MADDIE:    oh how nice its " + userInput)
+			time.sleep(2)
+			print ("MADDIE:    so your having a nice day then?")
+			weatheranswerclear = input ("ME:    ")
+			if weatheranswerclear in affirm:
+				time.sleep(2)
+				print ("MADDIE:    sorry :(")
+				time.sleep(3)
+				print ("MADDIE:    " + random.choice(questions))
+		
+		elif userInput in weathersnow:
+			time.sleep(2)
+			print ("MADDIE:    oh how nice its " + userInput)
+			time.sleep(2)
+			print ("MADDIE:    you didn't get to cold did you?")
+			weatheranswersnow = input ("ME:    ")
+			if weatheranswersnow in affirm:
+				time.sleep(2)
+				print ("MADDIE:    sorry :(")
+				time.sleep(3)
+				print ("MADDIE:    " + random.choice(questions))
+			else:
+				time.sleep(2)
+				print ("MADDIE:    " + random.choice(good))
+				time.sleep(2)
+				print ("MADDIE:    " + random.choice(questions))
+				
+				
+			elif userInput in weatherwind:
+				time.sleep(2)
+				print ("MADDIE:    oh how nice its " + userInput)
+				time.sleep(2)
+				print ("MADDIE:   i hope your umberella is okay")
+				weatheranswerwind = input ("ME:    ")
+				if weatheranswerwind in affirm:
+					time.sleep(2)
+					print ("MADDIE:    oh good")
+					time.sleep(3)
+					print ("MADDIE:    " + random.choice(questions))
+			else:
+				time.sleep(2)
+				print ("MADDIE:    " + random.choice(bad))
+				time.sleep(2)
+				print ("MADDIE:    " + random.choice(questions))
+		
+		
 		else:
 			time.sleep(2)
 			print ("MADDIE:    " + random.choice(good))
