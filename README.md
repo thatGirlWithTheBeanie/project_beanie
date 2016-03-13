@@ -1,4 +1,4 @@
-# project_beanie
+# Chatbot-Maddie
 this is maddie
 she is a chatbot
 however i cba to finish her,
